@@ -55,6 +55,7 @@ if max(100,1) == 100
   puts "max(100,1) passed"
 else
   puts "func1(3) failed"
+  # func1(3) should be replaced with max(100,1)
   failrues = failures + 1
   # the first 'failures' is misspelt on the line above.
 end

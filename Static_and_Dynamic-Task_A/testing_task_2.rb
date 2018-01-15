@@ -47,12 +47,12 @@ end
 if max(100,1) == 100
   puts "max(100,1) passed"
 else
-  puts "func1(3) failed"
+  puts "max(100,1) failed"
   failures = failures + 1
 end
 
 
-if failures !=0
+if failures !==0
   puts "Test Failed"
 else
   puts "Test Passed"
